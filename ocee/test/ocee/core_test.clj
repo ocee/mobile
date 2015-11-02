@@ -1,6 +1,6 @@
-(ns ios.core-test
+(ns ocee.core-test
   (:require [clojure.test :refer :all]
-            [ios.core :refer :all]))
+            [ocee.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

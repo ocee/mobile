@@ -131,7 +131,7 @@ RCT_EXPORT_MODULE()
 
   // Set up a root view using the bridge defined above
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
-                                                   moduleName:@"ios"
+                                                   moduleName:@"ocee"
                                             initialProperties:nil];
 
   // Set up to be notified when the React Native UI is up
@@ -172,7 +172,7 @@ RCT_EXPORT_MODULE()
 
 -(void)requireAppNamespaces:(JSContext*)context
 {
-  [context evaluateScript:[NSString stringWithFormat:@"goog.require('%@');", [self munge:@"ios.core"]]];
+  [context evaluateScript:[NSString stringWithFormat:@"goog.require('%@');", [self munge:@"ocee.core"]]];
 }
 
 - (JSValue*)getValue:(NSString*)name inNamespace:(NSString*)namespace fromContext:(JSContext*)context
@@ -225,7 +225,7 @@ RCT_EXPORT_MODULE()
   JSContext* context = [JSContext contextWithJSGlobalContextRef:self.contextManager.context];
   [self requireAppNamespaces:context];
 
-  JSValue* initFn = [self getValue:@"init" inNamespace:@"ios.core" fromContext:context];
+  JSValue* initFn = [self getValue:@"init" inNamespace:@"ocee.core" fromContext:context];
   NSAssert(!initFn.isUndefined, @"Could not find the app init function");
   [initFn callWithArguments:@[]];
 

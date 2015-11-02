@@ -12,7 +12,7 @@ var {
   View,
 } = React;
 
-var ios = React.createClass({
+var ocee = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('ios', () => ios);
+AppRegistry.registerComponent('ocee', () => ocee);

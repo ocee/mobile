@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ios.app"
-               BlueprintName = "ios"
-               ReferencedContainer = "container:ios.xcodeproj">
+               BuildableName = "ocee.app"
+               BlueprintName = "ocee"
+               ReferencedContainer = "container:ocee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "iosTests.xctest"
-               BlueprintName = "iosTests"
-               ReferencedContainer = "container:ios.xcodeproj">
+               BuildableName = "oceeTests.xctest"
+               BlueprintName = "oceeTests"
+               ReferencedContainer = "container:ocee.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "iosTests.xctest"
-               BlueprintName = "iosTests"
-               ReferencedContainer = "container:ios.xcodeproj">
+               BuildableName = "oceeTests.xctest"
+               BlueprintName = "oceeTests"
+               ReferencedContainer = "container:ocee.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ios.app"
-            BlueprintName = "ios"
-            ReferencedContainer = "container:ios.xcodeproj">
+            BuildableName = "ocee.app"
+            BlueprintName = "ocee"
+            ReferencedContainer = "container:ocee.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ios.app"
-            BlueprintName = "ios"
-            ReferencedContainer = "container:ios.xcodeproj">
+            BuildableName = "ocee.app"
+            BlueprintName = "ocee"
+            ReferencedContainer = "container:ocee.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ios.app"
-            BlueprintName = "ios"
-            ReferencedContainer = "container:ios.xcodeproj">
+            BuildableName = "ocee.app"
+            BlueprintName = "ocee"
+            ReferencedContainer = "container:ocee.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
